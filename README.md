@@ -10,7 +10,7 @@ A collaborative learning journey building the best editor ever config
 
 ## Adding ne plugins
 
-1. Create a new plugin file under `user.plugins` folder
+1. Create a new plugin file under `user.plugins` folder: `surround.lua`
 2. Define the plugin config in this file
 
 ```lua
