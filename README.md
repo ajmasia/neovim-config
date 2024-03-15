@@ -7,6 +7,9 @@ A collaborative learning journey building the best editor ever config
 - [ ] add support for files and buffers management using [nvim-telescope/telescope.nvim: Find, Filter, Preview, Pick. All lua, all the time.](https://github.com/nvim-telescope/telescope.nvim)
 - [ ] add basic lsp support for lua and typescript using [neovim/nvim-lspconfig: Quickstart configs for Nvim LSP](https://github.com/neovim/nvim-lspconfig), [nvim-telescope/telescope.nvim: Find, Filter, Preview, Pick. All lua, all the time.](https://github.com/nvim-telescope/telescope.nvim), [williamboman/mason-lspconfig.nvim: Extension to mason.nvim that makes it easier to use lspconfig with mason.nvim.](https://github.com/williamboman/mason-lspconfig.nvim) 
 - [ ] add initial keymaps for basic use
+- [ ] add initial options
+
+> [Brainstorming](https://coggle.it/diagram/ZfMSVag04DCRThjz/t/neovim-config)
 
 ## Adding ne plugins
 
