@@ -56,10 +56,44 @@ return {
 ```
 
 ### Telescope
+[nvim-telescope/telescope.nvim: Find, Filter, Preview, Pick. All lua, all the time.](https://github.com/nvim-telescope/telescope.nvim)
 
-#### Config 
+#### Config
+
+![lua/user/plugins/telescope.lua](./lua/user/plugins/telescope.lua)
+
+Check [nvim-telescope/telescope.nvim Wiki](https://github.com/nvim-telescope/telescope.nvim/wiki) for more config options
 
 #### Working with telescope
 
+You can use *Telescope* directally using this command `:Telescope <picker>`.
+
+The default mode within telescope is the insert mode. If you switch to normal mode you can access the help inside the current picare by typing `?`.
+
+Some useful commands within the picker
+
+| Command | Description |
+| --- | --- |
+| `Ctrl + V` | Open file in a vertical split |
+| `Ctrl + H` | Open file in a horizontal split |
+| `Ctrl + T` | Open file in a new tab|
+| `Ctrl + U` | Scroll up in the preview mode |
+| `Ctrl + D` | Scroll down in the preview mode |
+| `Tab` | Toggle selection (multiselection) |
+
 #### Keymaps
+
+| Keymap | Description |
+| --- | --- |
+| `<leade>fk` | Find keymaps |
+| `<leade>ff`, `<leader><space>` | Find files (cwd) |
+| `<leade>fF` | Find files (cwd) (preview) |
+| `<leade>fb` | Find buffers |
+| `<leade>fB` | Find buffers (preview) |
+| `<leade>fr` | Find recents files |
+| `<leade>fR` | Find recents files (preview) |
+| `<leade>st` | Search text in (cwd) |
+| `<leade>sT` | Search text in (cwd) (preview) |
+| `<leade>ss` | Search text in (cwd) under cursor |
+| `<leade>sS` | Search text in (cwd) under cursor (preview) |
 
