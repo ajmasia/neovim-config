@@ -81,6 +81,11 @@ return {
         desc = "Find recent files"
       },
       {
+        "<leader>fR",
+        "<cmd>Telescope oldfiles previewer=true<cr>",
+        desc = "Find recent files"
+      },
+      {
         "<leader>st",
         "<cmd>Telescope live_grep previewer=false theme=ivy<cr>",
         desc = "Search text in (cwd)"
