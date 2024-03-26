@@ -60,7 +60,7 @@ return {
 
 #### Config
 
-![lua/user/plugins/telescope.lua](./lua/user/plugins/telescope.lua)
+[lua/user/plugins/telescope.lua](./lua/user/plugins/telescope.lua)
 
 Check [nvim-telescope/telescope.nvim Wiki](https://github.com/nvim-telescope/telescope.nvim/wiki) for more config options
 
