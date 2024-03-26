@@ -1,5 +1,8 @@
 ---@diagnostic disable: undefined-global
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
+local opt = vim.opt
+
+opt.rtp:prepend(lazypath)
 
 if not vim.loop.fs_stat(lazypath) then
 	vim.fn.system({
@@ -11,8 +14,6 @@ if not vim.loop.fs_stat(lazypath) then
 		lazypath,
 	})
 end
-
-vim.opt.rtp:prepend(lazypath)
 
 -- https://github.com/folke/lazy.nvim?tab=readme-ov-file#%EF%B8%8F-configuration
 require("lazy").setup({
@@ -45,5 +46,3 @@ require("lazy").setup({
 		},
 	},
 })
-
-vim.cmd([[colorscheme habamax]])
