@@ -1,10 +1,11 @@
 -- for conciseness
 local gopt = vim.g
 local opt = vim.opt
+local vcmd = vim.cmd
 
 -- global options
 -- keys
-vim.g.mapleader = " " -- define <space> as global leader key
+gopt.mapleader = " " -- define <space> as global leader key
 
 -- editor options
 -- files
@@ -31,5 +32,4 @@ opt.shiftwidth = 2 -- sets the number of spaces for each indent level
 opt.expandtab = true -- converts tab characters into spaces
 opt.autoindent = true -- copy indent from current line when starting new on
 
-
-vim.cmd([[colorscheme habamax]])
+vcmd([[colorscheme habamax]])
