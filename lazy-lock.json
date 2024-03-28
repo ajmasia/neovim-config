@@ -1,9 +1,9 @@
 {
-  "LazyVim": { "branch": "main", "commit": "7d570fad7949288711c6238468add594963cabaa" },
-  "lazy.nvim": { "branch": "main", "commit": "68941b7b13861ca44ad5d4caf7296d9160b4732f" },
+  "LazyVim": { "branch": "main", "commit": "cfbd3582736286433ee5532e1ea3a8d05a1e2649" },
+  "lazy.nvim": { "branch": "main", "commit": "ba58b87ed9c95da9d61e1b8b4da7bf7904e39986" },
   "nvim-autopairs": { "branch": "master", "commit": "dbfc1c34bed415906395db8303c71039b3a3ffb4" },
   "plenary.nvim": { "branch": "master", "commit": "8aad4396840be7fc42896e3011751b7609ca4119" },
   "telescope-file-browser.nvim": { "branch": "master", "commit": "5ee5002373655fd684a4ad0d47a3de876ceacf9a" },
   "telescope-fzf-native.nvim": { "branch": "main", "commit": "9ef21b2e6bb6ebeaf349a0781745549bbb870d27" },
-  "telescope.nvim": { "branch": "master", "commit": "c2b8311dfacd08b3056b8f0249025d633a4e71a8" }
+  "telescope.nvim": { "branch": "master", "commit": "b22e6f6896cd64b109bd0807a24098d225d5fb49" }
 }
